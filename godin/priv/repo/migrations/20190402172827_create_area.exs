@@ -1,0 +1,11 @@
+defmodule Godin.Repo.Migrations.CreateArea do
+  use Ecto.Migration
+
+  def change do
+    create table(:area) do
+      add :nombre_area, :string
+
+      timestamps()
+    end
+  end
+end
