@@ -10,6 +10,8 @@ defmodule Godin.Usuarios.Usuario do
         field :correo, :string
         field :tipo_usuario, :integer
         field :foto_usuario, :string
+        field :contrasena_usuario, :string
+        field :fecha_nacimiento, :date
         has_many :portafolio_evidencia, Godin.Experiencias.PortafolioEvidencia
         has_many :sesion, Godin.Accesos.Sesion
         has_many :calificacion_empresa, Godin.Empresas.CalificacionEmpresa
