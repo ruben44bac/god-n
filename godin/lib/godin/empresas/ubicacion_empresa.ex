@@ -6,6 +6,7 @@ defmodule Godin.Empresas.UbicacionEmpresa do
         belongs_to :empresa, Godin.Empresas.Empresa
         belongs_to :direccion, Godin.Direcciones.Direccion
         has_many :vacante, Godin.Trabajos.Vacante
+        has_many :usuario_puesto_empresa, Godin.Usuario.UsuarioPuestoEmpresa
 
         timestamps()
     end
