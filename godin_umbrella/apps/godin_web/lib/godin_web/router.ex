@@ -15,7 +15,7 @@ defmodule GodinWeb.Router do
 
   scope "/", GodinWeb do
     pipe_through :browser
-
+    resources "/header", HeaderController
     get "/", PageController, :index
   end
 

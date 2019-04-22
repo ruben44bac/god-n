@@ -1,0 +1,52 @@
+.header{
+    position: fixed;
+    width: 101%;
+    padding: 0.7%;
+    left: 0;
+    top: 0;
+    background: $back-card;
+    z-index: 999;
+}
+
+.img-logo{
+    position: absolute;
+    margin-top: -1%;
+    width: 20%;
+}
+
+.header-option{
+    cursor: pointer;
+    position: relative;
+    transition: 1s;
+    -moz-transition: 1s;
+}
+
+.header-option span {
+    width: 0;
+    height: 5px;
+    transition: width 0.5s, height 0.5s, 0.5s;
+    -moz-transition: width 0.5s, height 0.5s, 0.5s;
+}
+
+.header-option label{
+    cursor: pointer;
+}
+
+.header-option:hover span{
+    content: '';
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    margin: 0 auto;
+    z-index: 10;
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    transition: all .5s;
+    background: #a03a96;
+    background: linear-gradient(left, #a03a96, #f5245d);
+    background: -webkit-linear-gradient(left, #a03a96, #f5245d);
+    background: -moz-linear-gradient(left, #a03a96, #f5245d);
+    background: -ms-linear-gradient(left, #a03a96, #f5245d);
+    background: -o-linear-gradient(left, #a03a96, #f5245d);
+}

@@ -1,0 +1,16 @@
+<div class="header row">  
+    <div class="col-lg-4">
+        <img src="./images/logo-1.png" class="img-logo">
+    </div>
+    <div class="col-lg-4">
+        <input class="form-control" placeholder="Busca tu trabajo ideal">
+    </div>
+    <div class="col-lg-4 float-right">
+        <div class="d-flex flex-row-reverse">
+            <div class="p-3 header-option"><label>Ingresa</label><span></span></div>
+            <div class="p-3 header-option"><label>Vacantes</label><span></span></div>
+            <div class="p-3 header-option"><label>Empresas</label><span></span></div>
+        </div>
+                    
+    </div>
+</div>
